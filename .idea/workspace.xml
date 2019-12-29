@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="351062e9-41b6-492a-95c2-fca86bca3b36" name="默认更改列表" comment="unit 2 选择排序 敲完 有问题22" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="221" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/workfile/Maven/apache-maven-3.3.1" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VHldIov3UEK3d6aaL6ANz7C9Ag" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/algs4.jar!/" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\WorkSpace\algorithmsfourth\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Quick">
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_171\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.main.unit2.unit2_2.MergeSort" />
+      <module name="algorithms-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.unit2.unit2_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mergesort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.unit2.unit2_2.Mergesort2" />
+      <module name="algorithms-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.unit2.unit2_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Quick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.unit2.unit2_3.Quick" />
+      <module name="algorithms-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.unit2.unit2_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.unit2.unit2_3.test1" />
+      <module name="algorithms-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.unit2.unit2_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.unit2.unit2_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.main.unit2.unit2_3" />
+      <option name="MAIN_CLASS_NAME" value="com.main.unit2.unit2_3.test1" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Quick" />
+        <item itemvalue="Application.test1" />
+        <item itemvalue="JUnit.test1.test2" />
+        <item itemvalue="Application.Mergesort2" />
+        <item itemvalue="Application.MergeSort" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="351062e9-41b6-492a-95c2-fca86bca3b36" name="默认更改列表" comment="" />
+      <created>1572008664942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572008664942</updated>
+      <workItem from="1572008679638" duration="15965000" />
+      <workItem from="1572174498110" duration="8738000" />
+      <workItem from="1572263708935" duration="3856000" />
+      <workItem from="1572355071188" duration="4118000" />
+      <workItem from="1572433857395" duration="4822000" />
+      <workItem from="1572614541191" duration="645000" />
+      <workItem from="1572695233021" duration="598000" />
+      <workItem from="1573566096212" duration="1206000" />
+      <workItem from="1574254069314" duration="4184000" />
+      <workItem from="1574688749320" duration="3584000" />
+      <workItem from="1575202693657" duration="2179000" />
+      <workItem from="1575379397213" duration="2910000" />
+      <workItem from="1575551699213" duration="629000" />
+      <workItem from="1575734423686" duration="601000" />
+      <workItem from="1575820239712" duration="5664000" />
+      <workItem from="1575898315888" duration="4110000" />
+      <workItem from="1576402072079" duration="9372000" />
+      <workItem from="1576502482627" duration="1743000" />
+      <workItem from="1576594731053" duration="1848000" />
+      <workItem from="1576767780395" duration="11831000" />
+      <workItem from="1576854127855" duration="4999000" />
+      <workItem from="1576917997985" duration="2406000" />
+      <workItem from="1576936709185" duration="633000" />
+      <workItem from="1577111968449" duration="4390000" />
+      <workItem from="1577362517657" duration="7271000" />
+      <workItem from="1577531727863" duration="13734000" />
+      <workItem from="1577590611386" duration="16572000" />
+    </task>
+    <task id="LOCAL-00001" summary="uioi">
+      <created>1572013747740</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572013747740</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test2">
+      <created>1572014723229</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572014723229</updated>
+    </task>
+    <task id="LOCAL-00003" summary="uioi">
+      <created>1572014744749</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572014744749</updated>
+    </task>
+    <task id="LOCAL-00004" summary="uioi">
+      <created>1572014807185</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572014807185</updated>
+    </task>
+    <task id="LOCAL-00005" summary="uioi">
+      <created>1572061643585</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572061643586</updated>
+    </task>
+    <task id="LOCAL-00006" summary="二分法敲完  开始敲测试题">
+      <created>1572266132981</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572266132981</updated>
+    </task>
+    <task id="LOCAL-00007" summary="二分法敲完  开始敲测试题">
+      <created>1572360967116</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572360967116</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1.2敲完">
+      <created>1572446220369</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572446220369</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1.4敲完">
+      <created>1574689002754</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574689002754</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1.5 DF敲完">
+      <created>1574701137766</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574701137766</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1.5 DF敲完">
+      <created>1575202845162</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575202845162</updated>
+    </task>
+    <task id="LOCAL-00012" summary="unit 2敲完">
+      <created>1575380052663</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1575380052663</updated>
+    </task>
+    <task id="LOCAL-00013" summary="unit 2 选择排序 敲完">
+      <created>1575826719201</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575826719201</updated>
+    </task>
+    <task id="LOCAL-00014" summary="unit 2 选择排序 敲完">
+      <created>1575919361106</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575919361107</updated>
+    </task>
+    <task id="LOCAL-00015" summary="unit 2 选择排序 敲完 有问题">
+      <created>1576427713470</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1576427713470</updated>
+    </task>
+    <task id="LOCAL-00016" summary="unit 2 选择排序 敲完 有问题">
+      <created>1576427878276</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1576427878276</updated>
+    </task>
+    <task id="LOCAL-00017" summary="unit 2 选择排序 敲完 有问题">
+      <created>1576507422843</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1576507422843</updated>
+    </task>
+    <task id="LOCAL-00018" summary="unit 2 选择排序 敲完 有问题">
+      <created>1576507834633</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1576507834633</updated>
+    </task>
+    <task id="LOCAL-00019" summary="unit 2 选择排序 敲完 有问题22">
+      <created>1576507876940</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1576507876940</updated>
+    </task>
+    <task id="LOCAL-00020" summary="unit 2 选择排序 敲完 有问题22">
+      <created>1576782867381</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1576782867381</updated>
+    </task>
+    <task id="LOCAL-00021" summary="unit 2 选择排序 敲完 有问题22">
+      <created>1576855348830</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1576855348830</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test2" />
+    <MESSAGE value="uioi" />
+    <MESSAGE value="二分法敲完  开始敲测试题" />
+    <MESSAGE value="1.2敲完" />
+    <MESSAGE value="1.4敲完" />
+    <MESSAGE value="1.5 DF敲完" />
+    <MESSAGE value="unit 2敲完" />
+    <MESSAGE value="unit 2 选择排序 敲完" />
+    <MESSAGE value="unit 2 选择排序 敲完 有问题" />
+    <MESSAGE value="unit 2 选择排序 敲完 有问题22" />
+    <option name="LAST_COMMIT_MESSAGE" value="unit 2 选择排序 敲完 有问题22" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1413" y="356" width="627" height="687" key="#MergeSort" timestamp="1576936759689">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1413" y="356" width="627" height="687" key="#MergeSort/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1576936759689" />
+    <state x="1499" y="404" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1576918146215">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1499" y="404" key="#com.intellij.ide.macro.MacrosDialog/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1576918146215" />
+    <state x="1525" y="384" key="#com.intellij.ide.util.MemberChooser" timestamp="1577533656504">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1525" y="384" key="#com.intellij.ide.util.MemberChooser/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577533656504" />
+    <state x="1454" y="461" key="EnvironmentVariablesDialog" timestamp="1576918257875">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1454" y="461" key="EnvironmentVariablesDialog/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1576918257875" />
+    <state x="1394" y="440" key="FileChooserDialogImpl" timestamp="1577116269419">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1394" y="440" key="FileChooserDialogImpl/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577116269419" />
+    <state x="1541" y="613" width="382" height="174" key="Github.CreateGistDialog" timestamp="1577116490194">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1541" y="613" width="382" height="174" key="Github.CreateGistDialog/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577116490194" />
+    <state width="3397" height="454" key="GridCell.Tab.0.bottom" timestamp="1577640661503">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="3397" height="454" key="GridCell.Tab.0.bottom/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577640661503" />
+    <state width="3397" height="454" key="GridCell.Tab.0.center" timestamp="1577640661503">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="3397" height="454" key="GridCell.Tab.0.center/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577640661503" />
+    <state width="3397" height="454" key="GridCell.Tab.0.left" timestamp="1577640661503">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="3397" height="454" key="GridCell.Tab.0.left/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577640661503" />
+    <state width="3397" height="454" key="GridCell.Tab.0.right" timestamp="1577640661503">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="3397" height="454" key="GridCell.Tab.0.right/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577640661503" />
+    <state x="1250" y="355" key="Maven.ArtifactSearchDialog" timestamp="1576918111026">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1250" y="355" key="Maven.ArtifactSearchDialog/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1576918111026" />
+    <state x="1200" y="274" key="SettingsEditor" timestamp="1577116274824">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1200" y="274" key="SettingsEditor/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577116274824" />
+    <state x="1400" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1577594418675">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1400" y="524" key="com.intellij.ide.util.TipDialog/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577594418675" />
+    <state x="1376" y="330" key="run.anything.popup" timestamp="1577533127806">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1376" y="330" key="run.anything.popup/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577533127806" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algorithmsfourth$BinarySearch.ic" NAME="BinarySearch Coverage Results" MODIFIED="1572072792603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.main.unit1.*</FILTER>
+    </SUITE>
+  </component>
+</project>
