@@ -4,6 +4,7 @@ import edu.princeton.cs.algs4.MaxPQ;
 import edu.princeton.cs.algs4.Stack;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.Transaction;
+import org.junit.Test;
 
 import java.rmi.MarshalledObject;
 
@@ -22,4 +23,10 @@ public class TopM {
         Stack<Transaction> stack=new Stack<Transaction>();
 
     }
+@Test
+    public void test2(){
+        System.out.println(Integer.compare(1,2));
+
+    }
 }
+
