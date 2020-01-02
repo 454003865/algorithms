@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351062e9-41b6-492a-95c2-fca86bca3b36" name="默认更改列表" comment="unit 2 选择排序 敲完 有问题22">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/main/unit2/unit2_4/HeapSortMaxAndMin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/main/unit2/unit2_3/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/main/unit2/unit2_3/test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/main/unit2/unit2_4/TopM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/main/unit2/unit2_4/TopM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/dao/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/dao/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit1_1/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit1_1/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit1_1/Exercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit1_1/Exercise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit1_1/StdDrawDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit1_1/StdDrawDemo1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit1_1/gcd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit1_1/gcd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit1_2/IntervalDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit1_2/IntervalDemo1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit1_2/TestVisualAccumulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit1_2/TestVisualAccumulator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit1_2/Test_1_2_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit1_2/Test_1_2_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit1_2/Test_1_2_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit1_2/Test_1_2_3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit1_2/VisualAccumulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit1_2/VisualAccumulator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit1_3/test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit1_3/test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit1_4/ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit1_4/ThreeSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit1_5/UF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit1_5/UF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit1_5/union_find.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit1_5/union_find.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit2/unit2_1/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit2/unit2_1/InsertSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit2/unit2_1/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit2/unit2_1/Selection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit2/unit2_2/InPlaceMergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit2/unit2_2/InPlaceMergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit2/unit2_2/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit2/unit2_2/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit2/unit2_2/Mergesort2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit2/unit2_2/Mergesort2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit2/unit2_3/Quick.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit2/unit2_3/Quick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit2/unit2_3/quick2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit2/unit2_3/quick2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit2/unit2_3/test1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit2/unit2_3/test1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/unit2/unit2_3/test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/unit2/unit2_3/test1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,13 +70,13 @@
       <recent name="G:\WorkSpace\algorithmsfourth\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TopM.test2">
-    <configuration name="Mergesort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.unit2.unit2_2.Mergesort2" />
+  <component name="RunManager" selected="Application.HeapSortMaxAndMin">
+    <configuration name="HeapSortMaxAndMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.unit2.unit2_4.HeapSortMaxAndMin" />
       <module name="algorithms-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.main.unit2.unit2_2.*" />
+          <option name="PATTERN" value="com.main.unit2.unit2_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeapSortMaxAndMin" />
         <item itemvalue="JUnit.TopM.test2" />
         <item itemvalue="Application.Quick" />
         <item itemvalue="Application.test1" />
         <item itemvalue="JUnit.test1.test2" />
-        <item itemvalue="Application.Mergesort2" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +202,7 @@
       <workItem from="1577531727863" duration="13734000" />
       <workItem from="1577590611386" duration="20195000" />
       <workItem from="1577716666219" duration="609000" />
+      <workItem from="1577976415345" duration="2726000" />
     </task>
     <task id="LOCAL-00001" summary="uioi">
       <created>1572013747740</created>
@@ -416,6 +392,10 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1525" y="384" key="#com.intellij.ide.util.MemberChooser/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577533656504" />
+    <state x="1322" y="292" key="CommitChangelistDialog2" timestamp="1577717963033">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1322" y="292" key="CommitChangelistDialog2/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577717963033" />
     <state x="1454" y="461" key="EnvironmentVariablesDialog" timestamp="1576918257875">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -452,10 +432,10 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1200" y="274" key="SettingsEditor/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577642310689" />
-    <state x="1400" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1577716666262">
+    <state x="1400" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1577976498081">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1400" y="524" key="com.intellij.ide.util.TipDialog/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577716666262" />
+    <state x="1400" y="524" key="com.intellij.ide.util.TipDialog/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577976498081" />
     <state x="1376" y="330" key="run.anything.popup" timestamp="1577533127806">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
