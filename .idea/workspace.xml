@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351062e9-41b6-492a-95c2-fca86bca3b36" name="默认更改列表" comment="unit 2 选择排序 敲完 有问题22">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/main/unit2/unit2_4/HeapSortMaxAndMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/main/Unit3/unit3_2/BST_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/main/Unit3/unit3_4/SwquentialSwarchST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,13 +71,26 @@
       <recent name="G:\WorkSpace\algorithmsfourth\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HeapSortMaxAndMin">
+  <component name="RunManager" selected="Application.SwquentialSwarchST">
     <configuration name="HeapSortMaxAndMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.main.unit2.unit2_4.HeapSortMaxAndMin" />
       <module name="algorithms-master" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.main.unit2.unit2_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiKey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.unit2.untit2_5.MultiKey" />
+      <module name="algorithms-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.unit2.untit2_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.unit2.unit2_3.test1" />
+    <configuration name="SwquentialSwarchST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.Unit3.unit3_4.SwquentialSwarchST" />
       <module name="algorithms-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.main.unit2.unit2_3.*" />
+          <option name="PATTERN" value="com.main.Unit3.unit3_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,29 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.main.unit2.unit2_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.main.unit2.unit2_3" />
-      <option name="MAIN_CLASS_NAME" value="com.main.unit2.unit2_3.test1" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SwquentialSwarchST" />
+        <item itemvalue="Application.MultiKey" />
         <item itemvalue="Application.HeapSortMaxAndMin" />
         <item itemvalue="JUnit.TopM.test2" />
         <item itemvalue="Application.Quick" />
-        <item itemvalue="Application.test1" />
-        <item itemvalue="JUnit.test1.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +200,18 @@
       <workItem from="1577531727863" duration="13734000" />
       <workItem from="1577590611386" duration="20195000" />
       <workItem from="1577716666219" duration="609000" />
-      <workItem from="1577976415345" duration="2726000" />
+      <workItem from="1577976415345" duration="3595000" />
+      <workItem from="1578492324006" duration="1456000" />
+      <workItem from="1578580708886" duration="3590000" />
+      <workItem from="1578999630271" duration="5279000" />
+      <workItem from="1579354029794" duration="2922000" />
+      <workItem from="1579357010332" duration="534000" />
+      <workItem from="1579358092193" duration="235000" />
+      <workItem from="1579391894514" duration="1226000" />
+      <workItem from="1579591505615" duration="1794000" />
+      <workItem from="1580627975278" duration="1257000" />
+      <workItem from="1580728850940" duration="611000" />
+      <workItem from="1580827020389" duration="10594000" />
     </task>
     <task id="LOCAL-00001" summary="uioi">
       <created>1572013747740</created>
@@ -351,17 +360,22 @@
       <option name="project" value="LOCAL" />
       <updated>1576855348830</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="unit 2 选择排序 敲完 有问题22">
+      <created>1577984085194</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1577984085194</updated>
+    </task>
+    <task id="LOCAL-00023" summary="unit 2.5 选择排序 敲完 有问题22">
+      <created>1578585537880</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1578585537880</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -376,6 +390,7 @@
     <MESSAGE value="unit 2敲完" />
     <MESSAGE value="unit 2 选择排序 敲完" />
     <MESSAGE value="unit 2 选择排序 敲完 有问题" />
+    <MESSAGE value="unit 2.5 选择排序 敲完 有问题22" />
     <MESSAGE value="unit 2 选择排序 敲完 有问题22" />
     <option name="LAST_COMMIT_MESSAGE" value="unit 2 选择排序 敲完 有问题22" />
   </component>
@@ -392,10 +407,10 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1525" y="384" key="#com.intellij.ide.util.MemberChooser/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577533656504" />
-    <state x="1322" y="292" key="CommitChangelistDialog2" timestamp="1577717963033">
+    <state x="1322" y="292" key="CommitChangelistDialog2" timestamp="1578585547644">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1322" y="292" key="CommitChangelistDialog2/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577717963033" />
+    <state x="1322" y="292" key="CommitChangelistDialog2/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1578585547644" />
     <state x="1454" y="461" key="EnvironmentVariablesDialog" timestamp="1576918257875">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -408,22 +423,22 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1541" y="613" width="382" height="174" key="Github.CreateGistDialog/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577642336864" />
-    <state width="3397" height="454" key="GridCell.Tab.0.bottom" timestamp="1577643821555">
+    <state width="3397" height="153" key="GridCell.Tab.0.bottom" timestamp="1578586271434">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="454" key="GridCell.Tab.0.bottom/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577643821555" />
-    <state width="3397" height="454" key="GridCell.Tab.0.center" timestamp="1577643821555">
+    <state width="3397" height="153" key="GridCell.Tab.0.bottom/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1578586271434" />
+    <state width="3397" height="153" key="GridCell.Tab.0.center" timestamp="1578586271434">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="454" key="GridCell.Tab.0.center/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577643821555" />
-    <state width="3397" height="454" key="GridCell.Tab.0.left" timestamp="1577643821555">
+    <state width="3397" height="153" key="GridCell.Tab.0.center/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1578586271434" />
+    <state width="3397" height="153" key="GridCell.Tab.0.left" timestamp="1578586271434">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="454" key="GridCell.Tab.0.left/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577643821555" />
-    <state width="3397" height="454" key="GridCell.Tab.0.right" timestamp="1577643821555">
+    <state width="3397" height="153" key="GridCell.Tab.0.left/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1578586271434" />
+    <state width="3397" height="153" key="GridCell.Tab.0.right" timestamp="1578586271434">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="454" key="GridCell.Tab.0.right/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577643821555" />
+    <state width="3397" height="153" key="GridCell.Tab.0.right/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1578586271434" />
     <state x="1250" y="355" key="Maven.ArtifactSearchDialog" timestamp="1576918111026">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -432,14 +447,18 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1200" y="274" key="SettingsEditor/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577642310689" />
-    <state x="1400" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1577976498081">
+    <state x="1400" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1580829401614">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1400" y="524" key="com.intellij.ide.util.TipDialog/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577976498081" />
+    <state x="1400" y="524" key="com.intellij.ide.util.TipDialog/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1580829401614" />
     <state x="1376" y="330" key="run.anything.popup" timestamp="1577533127806">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1376" y="330" key="run.anything.popup/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1577533127806" />
+    <state x="1383" y="319" key="search.everywhere.popup" timestamp="1579357474843">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1383" y="319" key="search.everywhere.popup/0.0.3440.1400/-1680.233.1680.1010@0.0.3440.1400" timestamp="1579357474843" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algorithmsfourth$BinarySearch.ic" NAME="BinarySearch Coverage Results" MODIFIED="1572072792603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
