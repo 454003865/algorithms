@@ -1,0 +1,2590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd">
+  <NamedLayer>
+    <Name>door</Name>
+    <UserStyle>
+      <Title>A red line style</Title>
+      <FeatureTypeStyle>
+
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>1</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="1.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>2</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="2.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>3</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="3.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>4</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="4.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>5</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="5.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>6</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="6.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <VendorOption name="spaceAround">25</VendorOption>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>7</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="7.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>8</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="8.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>9</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="9.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <VendorOption name="spaceAround">25</VendorOption>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>10</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="10.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <VendorOption name="spaceAround">25</VendorOption>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>11</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="11.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <VendorOption name="spaceAround">25</VendorOption>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>12</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="12.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>13</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="13.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>14</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="14.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>15</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="15.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>16</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="16.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>17</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="17.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>18</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="18.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>19</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="19.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>20</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="20.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>21</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="21.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>22</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="22.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>23</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="23.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>24</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="24.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>25</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="25.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>26</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="26.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>27</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="27.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>28</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="28.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>29</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="29.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>30</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="30.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>31</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="31.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>32</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="32.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>33</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="33.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>34</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="34.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>35</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="35.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>36</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="36.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>37</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="37.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>38</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="38.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>39</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="39.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>40</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="40.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>41</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="41.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>42</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="42.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>43</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="43.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>44</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="44.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>45</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="45.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>46</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="46.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>47</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="47.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>48</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="48.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>49</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="49.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>50</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="50.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>51</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="51.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>52</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="52.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>53</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="53.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>8000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <LabelPlacement>
+              <PointPlacement>
+                <Displacement>
+                  <DisplacementX>-25</DisplacementX>
+                  <DisplacementY>-25</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">16</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>0.3</Radius>
+              <Fill>
+                <CssParameter name="fill">#000000</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#2c4673</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>54</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="54.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>55</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="55.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>56</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="56.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>57</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="57.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>58</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="58.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>59</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="59.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <MaxScaleDenominator>100000.0</MaxScaleDenominator>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>60</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="60.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Size><ogc:Literal>25</ogc:Literal></Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
